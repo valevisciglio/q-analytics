@@ -215,6 +215,7 @@
 }
 
 .boton-card{
+    font-family: 'Montserrat', sans-serif ;
     background-color: #673AB7;
     color: #ffffff;
     border: none;
@@ -380,4 +381,138 @@
     margin-right: 80px;
     color: #ffffff;
     margin-top: 24px;
+}
+
+
+/****APP DE BODEGAS****/
+
+.contenedor-app-de-vinos{
+    background-image: url(../img/background-portfolio.png);
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    
+}
+
+
+.contenedor-hero-app{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor-textos-app{
+    padding: 11%;
+}
+
+.titulo-app{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    color: #FF5722;
+   
+}
+
+.texto-app{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color:#607D8B ;
+    margin-top: 16px;
+    
+}
+
+.boton-app-portfolio{
+    font-family: 'Montserrat', sans-serif ;
+    background-color: #673AB7;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+        
+}
+
+.boton-app-portfolio:hover{
+    background-color: #27047D;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.521);
+}
+
+.imagen-app{
+    margin-right: 80px;
+}
+
+.contenedor-app-1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+    
+}
+.contenedor-texto-app-1{
+    display: block;
+    margin-top: 7%;
+}
+.titulo-app-1{
+    font-family:'Montserrat', sans-serif ;
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF5722;
+    margin-left: 40px;
+}
+
+.texto-app-1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #607D8B;
+    margin-left: 40px;
+}
+
+.contenedor-app-2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 120px;
+}
+
+.titulo-app-2{
+    font-family:'Montserrat', sans-serif ;
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF5722;
+    margin-right: 40px;
+}
+
+.texto-app-2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #607D8B;
+    margin-right: 40px;
+}
+
+.contenedor-app-3{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 120px;
+}
+
+.contenedor-texto-app-2{
+    display: block;
+    margin-top: 11%;
+}
+
+.contenedor-portfolio-1{
+    background-color: #FF5722;
+    margin-top: 120px;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 500px;
+}
+
+.footer-portfolio{
+    margin-top: 64px;
 }
