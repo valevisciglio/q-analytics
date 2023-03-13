@@ -2,6 +2,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/****INDEX****/
     
 .header{
     background: #673AB7;
@@ -84,12 +86,14 @@
     margin-top: 32px;
 }
 
+/****SERVICIOS****/
+
 .titulo-servicios{
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
     font-weight: bold;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 120px;
     color: #27047D;
 }
 
@@ -173,11 +177,14 @@
 
 }
 
+/****PORTFOLIO****/
+
 .contenedor-portfolio{
     background-color: #FF5722;
     margin-left: 80px;
     margin-right: 80px;
     height: 800px;
+    margin-top: 80px;
 }
 
 .contenedor-card-portfolio{
@@ -231,10 +238,13 @@
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.521);
 }
 
+/****QUIENES SOMOS****/
+
 .contenedor-quienes-somos{
     display: flex;
     flex-direction: row;
     padding: 80px;
+    margin-top: 80px;
 }
 
 .titulo-quienes-somos{
@@ -256,6 +266,9 @@
     margin-top: 16px;
 }
 
+/****CONTACTO****/
+
+
 .contenedor-contacto{
     background-image: linear-gradient(to bottom, #673AB7, #27047D);
     width: 100%;
@@ -268,7 +281,7 @@
     font-weight: bold;
     color: #ffffff;
     text-align: center;
-    margin-top: 64px;
+    margin-top: 80px;
     padding: 48px;
 }
 
@@ -357,7 +370,7 @@
     margin-left: 80px;
     display: block;
     justify-content: start;
-    margin-top: 24px;
+    margin-top: 32px;
 }
 
 .copyright{
