@@ -366,7 +366,7 @@
     color: #ffffff;
     display: flex;
     flex-direction: row;
-    margin-top: 32px;
+    margin-top: 40px;
 
 }
 
@@ -383,6 +383,27 @@
     margin-top: 24px;
 }
 
+.icono-linkedin{
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 16px;
+}
+.icono-linkedin:hover{
+    box-shadow: 0px 2px 4px 0px gray;
+    color: #FF5722;
+    cursor: pointer;
+}
+
+.icono-instagram{
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 16px;
+}
+.icono-instagram:hover{
+    box-shadow: 0px 2px 4px 0px gray;
+    color: #FF5722;
+    cursor: pointer;
+}
 
 /****APP DE BODEGAS****/
 
@@ -515,4 +536,11 @@
 
 .footer-portfolio{
     margin-top: 64px;
+}
+
+/**** APP PRECIOS CLAROS****/
+
+.imagen-app-2{
+    margin-right: 80px;
+    margin-top: 48px;
 }
