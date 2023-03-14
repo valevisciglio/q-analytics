@@ -322,17 +322,18 @@
 }
 
 .iconos{
-    display: inline-block;
-    margin-left: 80px;
+    display: block;
+    margin-left: 120px;
+    
 }
 
 .icono-contacto{
     color: #ffffff;
     font-size: 24px;
-    display: inline-block;
+    display: flex;
     justify-content: center;
-    margin: 16px;
     margin-top: 16px;
+    padding-right: 3%;
 }
 
 .icono-contacto:hover{
@@ -361,7 +362,7 @@
     height: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-between;
     
 
 }
@@ -378,22 +379,24 @@
     font-size: 16px;
     color: #ffffff;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     margin-top: 40px;
-
+    
 }
 
-.icono-copy{
-    font-size: 24px;
-    margin-right: 16px;
+.copy{
+    font-size: 16px;
+    margin-right: 6px;
     
 }
 
 .icono-footer{
     font-size: 24px;
-    margin-right: 80px;
+    padding-right: 6%;
+    padding-left: 10%;
     color: #ffffff;
     margin-top: 24px;
+
 }
 
 .icono-linkedin{
