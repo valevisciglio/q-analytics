@@ -29,7 +29,8 @@
     color: #FF5722;
     
 }
-/* .contenedor{
+
+.contenedor{
     background-color: #673AB7;
     
     
@@ -38,18 +39,20 @@
 .background-hero{
     background-color: #ffffff;
     width: 100%;
-    height: 550px;
+    height: 101vh;
     border-radius: 100% 0% 0% 0%;
-} */
+}
 
-.background-hero{
+/* .background-hero{
     background-image: url(../img/background-hero.png);
     width: 100%;
     height: 570px;
     background-size: cover;
-}
+} */
+
+
 .container-hero{
-    margin-top: 80px;
+    margin-top: 6%;
     padding-top: 11%;
     margin-left: 80px;
     margin-right: 80px;
@@ -84,7 +87,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     color: #607D8B;
-    margin-top: 32px;
+    margin-top: 5%;
 }
 
 /****SERVICIOS****/
@@ -94,17 +97,17 @@
     font-size: 48px;
     font-weight: bold;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 3%;
     color: #27047D;
 }
 
 .caja-contenedora-card{
     display: flex;
     justify-content: space-between;
-    margin-top: 32px;
+    margin-top: 2%;
     margin-left: 80px;
     margin-right: 80px;
-    margin-bottom: 32px;
+    margin-bottom: 2%;
 }
     
 
@@ -185,7 +188,7 @@
     margin-left: 80px;
     margin-right: 80px;
     height: 500px;
-    margin-top: 80px;
+    margin-top: 8%;
 }
 
 .contenedor-carrusel{
@@ -201,6 +204,7 @@
     width: 200%;
     display: flex;
     animation: carrusel 30s infinite linear;
+    
 }
 
 .contenedor-card-portfolio{
@@ -228,22 +232,6 @@
       transform: translateX(-50%);
     }
   }
-
-  @keyframes animacion-card {
-    0% {
-        opacity: 0;
-        transform: translateX(-50px);
-    }
-    50% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-  
 
 .titulo-portfolio{
     font-family: 'Montserrat', sans-serif ;
@@ -296,7 +284,7 @@
     display: flex;
     flex-direction: row;
     padding: 80px;
-    margin-top: 80px;
+    margin-top: 8%;
 }
 
 .titulo-quienes-somos{
@@ -304,8 +292,7 @@
     font-size: 48px;
     font-weight: bold;
     margin-left: 80px;
-    margin-top: 48px;
-    
+    margin-top: 6%;
     color: #FF5722;
 }
 
@@ -315,7 +302,7 @@
     font-weight: 500;
     color: #455A64;
     margin-left: 80px;
-    margin-top: 16px;
+    margin-top: 3%;
 }
 
 /****CONTACTO****/
@@ -333,8 +320,8 @@
     font-weight: bold;
     color: #ffffff;
     text-align: center;
-    margin-top: 80px;
-    padding: 48px;
+    margin-top: 8%;
+    padding: 5%;
 }
 
 .contenedor-card-contacto{
@@ -475,18 +462,29 @@
 
 /****APP DE BODEGAS****/
 
-.contenedor-app-de-vinos{
+.contenedor-principal{
+    background-color: #673AB7;
+}
+
+/* .contenedor-app-de-vinos{
     background-image: url(../img/background-portfolio.png);
     width: 100%;
     background-repeat: no-repeat;
     margin-top: 80px;
-    
-}
+} */
 
+.contenedor-app-de-vinos{
+    background-color: #ffffff;
+    width: 100%;
+    height: 101vh;
+    border-radius: 0% 100% 0% 0%;
+    margin-top: 6%;
+}
 
 .contenedor-hero-app{
     display: flex;
     flex-direction: row;
+    
 }
 
 .contenedor-textos-app{
@@ -602,6 +600,16 @@
     margin-right: 80px;
     height: 500px;
 }
+
+.contenedor-card-portfolio-2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 64px;
+    margin-right: 64px;
+    
+    
+}
+
 
 .footer-portfolio{
     margin-top: 64px;
