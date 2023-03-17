@@ -32,8 +32,7 @@
 
 .contenedor{
     background-color: #673AB7;
-    
-    
+        
 }
 
 .background-hero{
@@ -41,6 +40,12 @@
     width: 100%;
     height: 101vh;
     border-radius: 100% 0% 0% 0%;
+}
+
+@media screen and (max-width:1024px){
+    .background-hero{
+        height: 480px;    
+    }
 }
 
 /* .background-hero{
@@ -59,15 +64,44 @@
     display: flex;
     flex-direction: row;
     
-    
+}
+
+@media screen and (max-width:1024px) {
+    .container-hero{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+
+@media screen and (max-width:780px){
+    .container-hero{
+        display: flex;
+        flex-direction: column;
+        margin-left: 45px;
+        margin-right: 45px;
+    }
 }
 
 .imagen-hero{
     width: 540px;
     height: 306px;
 }
+
+@media screen and (max-width:1024px){
+    .imagen-hero{
+        width: 359px;
+        height: 204px;
+    }
+}
+
 .container-titulos{
     margin-left: 80px;
+}
+
+@media screen and (max-width:1024px) {
+    .container-titulos{
+        margin-left: 24px;
+    }
 }
 
 .titulo-hero{
@@ -75,7 +109,6 @@
     font-size: 60px;
     font-weight: bold;
     color: #FF5722;
-    
 }
 
 .q-analytics{
@@ -83,11 +116,24 @@
     display: block;
 }
 
+@media screen and (max-width:1024px){
+    .titulo-hero{
+        font-size: 48px;
+    }
+}
+
 .subtitulo-hero{
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     color: #607D8B;
     margin-top: 5%;
+}
+
+@media screen and (max-width:1024px) {
+    .subtitulo-hero{
+        font-size: 18px;
+    }
+    
 }
 
 /****SERVICIOS****/
@@ -117,6 +163,14 @@
     height: 250px;
     perspective: 1000px;
     margin: 8px;
+    
+}
+
+@media screen and (max-width:1024px) {
+    .card-1{
+        height: 320px;
+        
+    }
     
 }
 
@@ -181,6 +235,25 @@
 
 }
 
+.titulo-card-2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #FF8C68;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+@media screen and (max-width:1024px) {
+    .titulo-card-2{
+        margin-top: 8px;
+        margin-right: 32px;
+        margin-left: 32px;
+    }
+    
+}
+
 /****PORTFOLIO****/
 
 .contenedor-portfolio{
@@ -189,6 +262,15 @@
     margin-right: 80px;
     height: 500px;
     margin-top: 8%;
+}
+
+@media screen and (max-width:1024px){
+    .contenedor-portfolio{
+        margin-left: 60px;
+        margin-right: 60px;
+        height: 425px;
+    }
+    
 }
 
 .contenedor-carrusel{
@@ -252,6 +334,14 @@
     margin-top: 32px;
 }
 
+@media screen and (max-width:1024px) {
+    .titulo-card-portfolio{
+        font-size: 28px;
+        margin-top: 0px;
+    }
+    
+}
+
 .texto-card-portfolio{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -287,6 +377,26 @@
     margin-top: 8%;
 }
 
+@media screen and (max-width:1024px) {
+    .contenedor-quienes-somos{
+        padding: 60px;
+    }
+    
+}
+
+.imagen-quienes-somos{
+    width: 540px;
+    height: 383px;
+}
+
+@media screen and (max-width:1024px) {
+    .imagen-quienes-somos{
+        width: 336px;
+        height: 238px;
+        margin-top: 4%;
+    }
+}
+
 .titulo-quienes-somos{
     font-family:'Montserrat', sans-serif ;
     font-size: 48px;
@@ -296,6 +406,13 @@
     color: #FF5722;
 }
 
+@media screen and (max-width:1024px) {
+    .titulo-quienes-somos{
+        margin-top: 0%;
+        margin-left: 48px;
+    }
+}
+
 .texto-quienes-somos{
     font-family:'Montserrat', sans-serif ;
     font-size: 16px;
@@ -303,6 +420,12 @@
     color: #455A64;
     margin-left: 80px;
     margin-top: 3%;
+}
+
+@media screen and (max-width:1024px) {
+    .texto-quienes-somos{
+        margin-left: 48px;
+    }
 }
 
 /****CONTACTO****/
@@ -337,13 +460,23 @@
 
 }
 
+@media screen and (max-width:1024px) {
+    .card-contacto-1{
+        width: 250px;
+        height: 250px;
+        margin-left: 60px;
+        align-items: center;
+    }
+    
+}
+
 .nombre-contacto{
     font-family: 'Montserrat', sans-serif ;
     font-size: 28px;
     font-weight: bold;
     color: #FF5722;
-
 }
+
 
 .educacion-contacto{
     font-family: 'Montserrat', sans-serif ;
@@ -353,6 +486,14 @@
     margin-bottom: 32px;
 }
 
+@media screen and (max-width:1024px) {
+    .educacion-contacto{
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    
+}
+
 .info-contacto{
     font-family: 'Montserrat', sans-serif ;
     font-size: 16px;
@@ -360,6 +501,13 @@
     color: #ffffff;
 }
 
+@media screen and (max-width:1024px) {
+    .info-contacto{
+        margin-left: 0px;
+        font-size: 14px;
+    }
+    
+}
 .iconos{
     display: block;
     margin-left: 120px;
@@ -437,6 +585,9 @@
     margin-top: 24px;
 
 }
+.ancla{
+    display: inline-block;
+}
 
 .icono-linkedin{
     font-size: 24px;
@@ -481,6 +632,13 @@
     margin-top: 80px;
 }
 
+@media screen and (max-width:1024px) {
+    .contenedor-app-de-vinos{
+        height: 520px;
+    }
+    
+}
+
 .contenedor-hero-app{
     display: flex;
     flex-direction: row;
@@ -496,7 +654,14 @@
     font-size: 64px;
     font-weight: bold;
     color: #FF5722;
-   
+}
+
+@media screen and (max-width:1024px) {
+    .titulo-app{
+        font-size: 48px;
+        margin-top: 5%;
+    }
+    
 }
 
 .texto-app{
@@ -508,6 +673,11 @@
     
 }
 
+@media screen and (max-width:1024px){
+    .texto-app{
+        font-size: 18px;
+    }
+}
 .boton-app-portfolio{
     font-family: 'Montserrat', sans-serif ;
     background-color: #673AB7;
@@ -528,6 +698,17 @@
     margin-right: 80px;
 }
 
+@media screen and (max-width:1024px){
+    .imagen-app{
+        width: 290px;
+        height: 436px;
+        margin-right: 45px;
+    }
+}
+
+/**IMÁGENES - EXPLICACIÓN APP**/
+
+
 .contenedor-app-1{
     display: flex;
     flex-direction: row;
@@ -540,12 +721,38 @@
     display: block;
     margin-top: 7%;
 }
+
+@media screen and (max-width:1024px){
+    .contenedor-texto-app-1{
+        margin-top: 5%;
+    }
+}
+
+.imagen-app-bodega{
+    width: 740px;
+    height: 298px;
+}
+
+@media screen and (max-width:1024px){
+    .imagen-app-bodega{
+        width: 539px;
+        height: 217px;
+    }
+}
+
 .titulo-app-1{
     font-family:'Montserrat', sans-serif ;
     font-size: 48px;
     font-weight: bold;
     color: #FF5722;
     margin-left: 40px;
+}
+
+@media screen and (max-width:1024px){
+    .titulo-app-1{
+        font-size: 32px;
+        margin-left: 32px;
+    }
 }
 
 .texto-app-1{
@@ -556,12 +763,31 @@
     margin-left: 40px;
 }
 
+@media screen and (max-width:1024px){
+    .texto-app-1{
+        font-size: 16px;
+        margin-left: 32px;
+    }
+}
+
 .contenedor-app-2{
     display: flex;
     flex-direction: row;
     margin-left: 80px;
     margin-right: 80px;
     margin-top: 120px;
+}
+
+.imagen-app-bodega-2{
+    width: 740px;
+    height: 308px;
+}
+
+@media screen and (max-width:1024px){
+    .imagen-app-bodega-2{
+        width: 539px;
+        height: 225px;
+    }
 }
 
 .titulo-app-2{
@@ -572,12 +798,26 @@
     margin-right: 40px;
 }
 
+@media screen and (max-width:1024px){
+    .titulo-app-2{
+        font-size: 32px;
+        margin-right: 32px;
+    }
+}
+
 .texto-app-2{
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 500;
     color: #607D8B;
     margin-right: 40px;
+}
+
+@media screen and (max-width:1024px){
+    .texto-app-2{
+        font-size: 16px;
+        margin-right: 32px;
+    }
 }
 
 .contenedor-app-3{
@@ -593,6 +833,17 @@
     margin-top: 11%;
 }
 
+.imagen-app-bodega-3{
+    width: 740px;
+    height: 417px;
+}
+
+@media screen and (max-width:1024px){
+    .imagen-app-bodega-3{
+        width: 539px;
+        height: 304px;
+    }
+}
 .contenedor-portfolio-1{
     background-color: #FF5722;
     margin-top: 120px;
@@ -601,13 +852,39 @@
     height: 500px;
 }
 
+@media screen and (max-width:1024px) {
+    .contenedor-portfolio-1{
+        height: 450px;
+    }
+    
+}
+
 .contenedor-card-portfolio-2{
     display: flex;
     flex-direction: row;
     margin-left: 64px;
     margin-right: 64px;
     
-    
+}
+
+@media screen and (max-width:1024px){
+    .contenedo-card-portfolio-2{
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
+.imagen-portfolio-bodega{
+    width: 474px;
+    height: 310px;
+}
+
+@media screen and (max-width:1024px){
+    .imagen-portfolio-bodega{
+        width: 400px;
+        height: 250px;
+        margin-top: 7%;
+    }
 }
 
 
@@ -621,3 +898,48 @@
     margin-right: 80px;
     margin-top: 48px;
 }
+
+@media screen and (max-width:1024px){
+    .imagen-app-2{
+        width: 370px;
+        height: 370px;
+        margin-right: 30px;
+    }
+}
+
+.imagen-app-precios-claros{
+    width: 740px;
+    height: 378px;
+}
+
+@media screen and (max-width:1024px){
+    .imagen-app-precios-claros{
+        width: 539px;
+        height: 275px;
+    }
+}
+
+.imagen-app-precios-claros-2{
+    width: 740px;
+    height: 375px;
+}
+
+@media screen and (max-width:1024px){
+    .imagen-app-precios-claros-2{
+        width: 539px;
+        height: 273px;
+    }
+}
+
+.imagen-app-precios-claros-3{
+    width: 740px;
+    height: 408px;
+}
+
+@media screen and (max-width:1024px){
+    .imagen-app-precios-claros-3{
+        width: 539px;
+        height: 298px;
+    }
+}
+
