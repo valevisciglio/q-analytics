@@ -42,7 +42,7 @@
     border-radius: 100% 0% 0% 0%;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .background-hero{
         height: 480px;    
     }
@@ -66,14 +66,14 @@
     
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
     .container-hero{
         margin-left: 60px;
         margin-right: 60px;
     }
 }
 
-@media screen and (max-width:780px){
+@media screen and (max-width:810px){
     .container-hero{
         display: flex;
         flex-direction: column;
@@ -87,7 +87,7 @@
     height: 306px;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .imagen-hero{
         width: 359px;
         height: 204px;
@@ -98,7 +98,7 @@
     margin-left: 80px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
     .container-titulos{
         margin-left: 24px;
     }
@@ -116,7 +116,7 @@
     display: block;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .titulo-hero{
         font-size: 48px;
     }
@@ -129,7 +129,7 @@
     margin-top: 5%;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
     .subtitulo-hero{
         font-size: 18px;
     }
@@ -166,7 +166,7 @@
     
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
     .card-1{
         height: 320px;
         
@@ -184,13 +184,19 @@
     border-radius: 10px;
     border: 1px solid #673AB7;
     box-shadow: 0px 4px 8px 0px gray;
-    
-    
+        
 }
 
 .card-1:hover .contenido{
     transform: rotateY(180deg);
 }
+
+/* @media screen and (max-width:1080px) {
+    .card-1 .contenido{
+        transform: rotateY(180deg);
+    }
+    
+} */
 
 .frente-card-1,
 .dorso-card-1{
@@ -245,7 +251,7 @@
     margin-left: 24px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
     .titulo-card-2{
         margin-top: 8px;
         margin-right: 32px;
@@ -264,7 +270,7 @@
     margin-top: 8%;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .contenedor-portfolio{
         margin-left: 60px;
         margin-right: 60px;
@@ -334,7 +340,7 @@
     margin-top: 32px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
     .titulo-card-portfolio{
         font-size: 28px;
         margin-top: 0px;
@@ -377,7 +383,7 @@
     margin-top: 8%;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
     .contenedor-quienes-somos{
         padding: 60px;
     }
@@ -389,7 +395,7 @@
     height: 383px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
     .imagen-quienes-somos{
         width: 336px;
         height: 238px;
@@ -406,7 +412,7 @@
     color: #FF5722;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
     .titulo-quienes-somos{
         margin-top: 0%;
         margin-left: 48px;
@@ -422,7 +428,7 @@
     margin-top: 3%;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
     .texto-quienes-somos{
         margin-left: 48px;
     }
@@ -450,21 +456,22 @@
 .contenedor-card-contacto{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     width: 100%;
 }
 
 .card-contacto-1{
-    width: 350px;
+    width: 26%;
     height: auto;
-    margin-left: 80px;
+    margin-left: 3%;
+    margin-right: 3%;
 
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
     .card-contacto-1{
-        width: 250px;
+        width:22% ;
         height: 250px;
-        margin-left: 60px;
         align-items: center;
     }
     
@@ -472,9 +479,10 @@
 
 .nombre-contacto{
     font-family: 'Montserrat', sans-serif ;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: bold;
     color: #FF5722;
+    display: inline-block;
 }
 
 
@@ -486,7 +494,7 @@
     margin-bottom: 32px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
     .educacion-contacto{
         font-size: 16px;
         margin-bottom: 24px;
@@ -501,7 +509,7 @@
     color: #ffffff;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
     .info-contacto{
         margin-left: 0px;
         font-size: 14px;
@@ -509,18 +517,23 @@
     
 }
 .iconos{
-    display: block;
-    margin-left: 120px;
+    display: flex;
+    justify-content: center;
     
 }
+
+.iconos-yoyi{
+    width: 64px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
 
 .icono-contacto{
     color: #ffffff;
     font-size: 24px;
-    display: flex;
-    justify-content: center;
     margin-top: 16px;
-    padding-right: 3%;
 }
 
 .icono-contacto:hover{
@@ -632,7 +645,7 @@
     margin-top: 80px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
     .contenedor-app-de-vinos{
         height: 520px;
     }
@@ -656,7 +669,7 @@
     color: #FF5722;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
     .titulo-app{
         font-size: 48px;
         margin-top: 5%;
@@ -673,7 +686,7 @@
     
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .texto-app{
         font-size: 18px;
     }
@@ -698,7 +711,7 @@
     margin-right: 80px;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .imagen-app{
         width: 290px;
         height: 436px;
@@ -722,7 +735,7 @@
     margin-top: 7%;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .contenedor-texto-app-1{
         margin-top: 5%;
     }
@@ -733,7 +746,7 @@
     height: 298px;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .imagen-app-bodega{
         width: 539px;
         height: 217px;
@@ -748,7 +761,7 @@
     margin-left: 40px;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .titulo-app-1{
         font-size: 32px;
         margin-left: 32px;
@@ -763,7 +776,7 @@
     margin-left: 40px;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .texto-app-1{
         font-size: 16px;
         margin-left: 32px;
@@ -783,7 +796,7 @@
     height: 308px;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .imagen-app-bodega-2{
         width: 539px;
         height: 225px;
@@ -798,7 +811,7 @@
     margin-right: 40px;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .titulo-app-2{
         font-size: 32px;
         margin-right: 32px;
@@ -813,7 +826,7 @@
     margin-right: 40px;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .texto-app-2{
         font-size: 16px;
         margin-right: 32px;
@@ -838,7 +851,7 @@
     height: 417px;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .imagen-app-bodega-3{
         width: 539px;
         height: 304px;
@@ -852,7 +865,7 @@
     height: 500px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
     .contenedor-portfolio-1{
         height: 450px;
     }
@@ -867,7 +880,7 @@
     
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .contenedo-card-portfolio-2{
         margin-left: 48px;
         margin-right: 48px;
@@ -879,7 +892,7 @@
     height: 310px;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .imagen-portfolio-bodega{
         width: 400px;
         height: 250px;
@@ -899,7 +912,7 @@
     margin-top: 48px;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .imagen-app-2{
         width: 370px;
         height: 370px;
@@ -912,7 +925,7 @@
     height: 378px;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .imagen-app-precios-claros{
         width: 539px;
         height: 275px;
@@ -924,7 +937,7 @@
     height: 375px;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .imagen-app-precios-claros-2{
         width: 539px;
         height: 273px;
@@ -936,7 +949,7 @@
     height: 408px;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .imagen-app-precios-claros-3{
         width: 539px;
         height: 298px;
