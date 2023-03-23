@@ -63,11 +63,10 @@
 
 @media screen and (max-width:810px){
     .background-hero{
-        height: 101vh;
+        height: 100vh;
     }
     
 }
-
 
 
 /* .background-hero{
@@ -107,9 +106,6 @@
     height: 306px;
 }
 
-
-
-
 @media screen and (max-width:1080px){
     .imagen-hero{
         width: 359px;
@@ -120,8 +116,11 @@
 @media screen and (max-width:810px){
     .imagen-hero{
         align-self: center;
-        margin-top: 10%;
-    }}
+        margin-top: 9%;
+        width: 540px;
+        height: 306px;
+    }
+}
 
 .container-titulos{
     margin-left: 80px;
@@ -200,6 +199,7 @@
 @media screen and (max-width:810px){
     .titulo-servicios{
         font-size: 42px;
+        margin-top: 5%;
     }   
 }
 
@@ -836,7 +836,7 @@
 
 @media screen and (max-width:810px){
     .contenedor-app-de-vinos{
-        height: 101vh;
+        height: 80vh;
     }
 }
 
