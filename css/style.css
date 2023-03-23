@@ -6,10 +6,10 @@
 /****INDEX****/
     
 .header{
-    background: #673AB7;
+    background-color: #673AB7;
     width: 100%;
-    height: 80px;
-    
+    --bs-navbar-padding-y: 0rem;
+
 }
 
 .header-container{
@@ -21,18 +21,31 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 410;
     color: white;
-
 }
 
 .header-texto:hover{
     font-weight: 440;
     color: #FF5722;
-    
+}
+
+
+.img-logo{
+    margin-left: 80px;
+}
+
+@media screen and (max-width:1080px) {
+    .img-logo{
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width:810px) {
+    .img-logo{
+        margin-left: 40px;
+    }
 }
 
 .contenedor{
     background-color: #673AB7;
-        
 }
 
 .background-hero{
@@ -44,9 +57,18 @@
 
 @media screen and (max-width:1080px){
     .background-hero{
-        height: 480px;    
+        height: 80vh;    
     }
 }
+
+@media screen and (max-width:810px){
+    .background-hero{
+        height: 101vh;
+    }
+    
+}
+
+
 
 /* .background-hero{
     background-image: url(../img/background-hero.png);
@@ -63,7 +85,6 @@
     margin-right: 80px;
     display: flex;
     flex-direction: row;
-    
 }
 
 @media screen and (max-width:1080px) {
@@ -77,8 +98,7 @@
     .container-hero{
         display: flex;
         flex-direction: column;
-        margin-left: 45px;
-        margin-right: 45px;
+        justify-content: center;
     }
 }
 
@@ -87,12 +107,21 @@
     height: 306px;
 }
 
+
+
+
 @media screen and (max-width:1080px){
     .imagen-hero{
         width: 359px;
         height: 204px;
     }
 }
+
+@media screen and (max-width:810px){
+    .imagen-hero{
+        align-self: center;
+        margin-top: 10%;
+    }}
 
 .container-titulos{
     margin-left: 80px;
@@ -111,16 +140,30 @@
     color: #FF5722;
 }
 
-.q-analytics{
-    color: #27047D;
-    display: block;
-}
-
 @media screen and (max-width:1080px){
     .titulo-hero{
         font-size: 48px;
     }
 }
+
+@media screen and (max-width:810px){
+    .titulo-hero{
+        text-align: center;
+        margin-top: 6%;
+    }
+}
+
+.q-analytics{
+    color: #27047D;
+    display: block;
+}
+
+@media screen and (max-width:810px){
+    .q-analytics{
+        display: inline-block;
+    }
+}
+
 
 .subtitulo-hero{
     font-family: 'Montserrat', sans-serif;
@@ -136,6 +179,13 @@
     
 }
 
+@media screen and (max-width:810px){
+    .subtitulo-hero{
+        text-align: center;
+        
+    }
+}
+
 /****SERVICIOS****/
 
 .titulo-servicios{
@@ -145,6 +195,12 @@
     text-align: center;
     margin-top: 3%;
     color: #27047D;
+}
+
+@media screen and (max-width:810px){
+    .titulo-servicios{
+        font-size: 42px;
+    }   
 }
 
 .caja-contenedora-card{
@@ -168,12 +224,15 @@
 
 @media screen and (max-width:1080px) {
     .card-1{
-        height: 320px;
-        
+        height: 320px;    
     }
-    
 }
 
+@media screen and (max-width:810px){
+    .card-1{
+        height: 370px;
+    }
+}
 .contenido{
     position: relative;
     width: 100%;
@@ -221,6 +280,15 @@
     margin-top: 48px;
 }
 
+
+@media screen and (max-width:810px){
+    .imagen-card{
+        margin-top: 50%;
+        width: 65px;
+        height: 65px;
+    }
+}
+
 .titulo-card{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
@@ -231,6 +299,14 @@
     margin-left: 24px;
 }
 
+@media screen and (max-width:810px){
+    .titulo-card{
+        margin-left: 12px;
+        margin-right: 12px;
+        font-size: 20px;
+    }
+}
+
 .texto-card-1{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -239,6 +315,12 @@
     margin-right: 16px;
     margin-left: 16px;
 
+}
+
+@media screen and (max-width:810px){
+    .texto-card-1{
+        margin-top: 12px;
+    }
 }
 
 .titulo-card-2{
@@ -257,8 +339,17 @@
         margin-right: 32px;
         margin-left: 32px;
     }
-    
 }
+
+@media screen and (max-width:810px){
+    .titulo-card-2{
+        font-size: 20px;
+        margin-top: 8px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}
+
 
 /****PORTFOLIO****/
 
@@ -277,6 +368,12 @@
         height: 425px;
     }
     
+}
+
+@media screen and (max-width:810px){
+    .contenedor-portfolio{
+        height: 460px;
+    }
 }
 
 .contenedor-carrusel{
@@ -304,6 +401,8 @@
     scroll-snap-align: start;
   
 }
+
+
 .contenedor-card-portfolio div {
     width: 50%;
   }
@@ -321,6 +420,7 @@
     }
   }
 
+
 .titulo-portfolio{
     font-family: 'Montserrat', sans-serif ;
     font-size: 48px;
@@ -328,6 +428,16 @@
     color: #ffffff;
     text-align: center;
     padding: 48px;
+}
+
+@media screen and (max-width:810px){
+    .titulo-portfolio{
+        font-size: 42px;
+    }   
+}
+
+.imagen-card-portfolio{
+    align-self: center;
 }
 
 .titulo-card-portfolio{
@@ -356,6 +466,11 @@
     
 }
 
+@media screen and (max-width:810px){
+    .texto-card-portfolio{
+        font-size: 14px;
+    }
+}
 .boton-card{
     font-family: 'Montserrat', sans-serif ;
     background-color: #673AB7;
@@ -387,7 +502,14 @@
     .contenedor-quienes-somos{
         padding: 60px;
     }
-    
+}
+
+@media screen and (max-width:810px){
+    .contenedor-quienes-somos{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
 }
 
 .imagen-quienes-somos{
@@ -403,6 +525,12 @@
     }
 }
 
+@media screen and (max-width:810px){
+    .imagen-quienes-somos{
+        align-self: center;
+    }
+}
+
 .titulo-quienes-somos{
     font-family:'Montserrat', sans-serif ;
     font-size: 48px;
@@ -412,10 +540,19 @@
     color: #FF5722;
 }
 
+
 @media screen and (max-width:1080px) {
     .titulo-quienes-somos{
         margin-top: 0%;
         margin-left: 48px;
+    }
+}
+
+@media screen and (max-width:810px){
+    .titulo-quienes-somos{
+        font-size: 42px;
+        text-align: center;
+        margin-left: 0px;
     }
 }
 
@@ -431,6 +568,13 @@
 @media screen and (max-width:1080px) {
     .texto-quienes-somos{
         margin-left: 48px;
+        
+    }
+}
+
+@media screen and (max-width:810px){
+    .texto-quienes-somos{
+        text-align: center;
     }
 }
 
@@ -451,6 +595,12 @@
     text-align: center;
     margin-top: 8%;
     padding: 5%;
+}
+
+@media screen and (max-width:810px){
+    .titulo-contacto{
+        font-size: 42px;
+    }   
 }
 
 .contenedor-card-contacto{
@@ -474,7 +624,12 @@
         height: 250px;
         align-items: center;
     }
-    
+}
+
+@media screen and (max-width:810px){
+    .card-contacto-1{
+        height: 210px;
+    }   
 }
 
 .nombre-contacto{
@@ -485,6 +640,11 @@
     display: inline-block;
 }
 
+@media screen and (max-width:810px){
+    .nombre-contacto{
+        font-size: 22px;
+    }   
+}
 
 .educacion-contacto{
     font-family: 'Montserrat', sans-serif ;
@@ -514,8 +674,14 @@
         margin-left: 0px;
         font-size: 14px;
     }
-    
 }
+
+@media screen and (max-width:810px){
+    .info-contacto{
+        font-size: 11px;
+    }   
+}
+
 .iconos{
     display: flex;
     justify-content: center;
@@ -528,8 +694,6 @@
     justify-content: space-around;
 }
 
-
-
 .icono-contacto{
     color: #ffffff;
     font-size: 24px;
@@ -541,12 +705,18 @@
     color: #FF5722;
     cursor: pointer;
 }
+
+@media screen and (max-width:810px){
+    .icono-contacto{
+        font-size: 20px;
+    }
+}
+
 .icono-contacto-1{
     color: #ffffff;
     font-size: 24px;
     display: inline-block;
     justify-content: center;
-    margin: 130px;
     margin-top: 16px;
 }
 
@@ -556,6 +726,14 @@
     cursor: pointer;
 }
 
+@media screen and (max-width:810px){
+    .icono-contacto-1{
+        font-size: 20px;
+    }   
+}
+
+/**FOOTER**/
+
 .footer{
     background-color: #27047D;
     width: 100%;
@@ -564,7 +742,6 @@
     flex-direction: row;
     justify-content:space-between;
     
-
 }
 
 .imagen-footer{
@@ -572,6 +749,12 @@
     display: block;
     justify-content: start;
     margin-top: 32px;
+}
+
+@media screen and (max-width:810px){
+    .imagen-footer{
+        margin-left: 5%;
+    }   
 }
 
 .copyright{
@@ -647,9 +830,14 @@
 
 @media screen and (max-width:1080px) {
     .contenedor-app-de-vinos{
-        height: 520px;
+        height: 80vh;
     }
-    
+}
+
+@media screen and (max-width:810px){
+    .contenedor-app-de-vinos{
+        height: 101vh;
+    }
 }
 
 .contenedor-hero-app{
@@ -675,6 +863,12 @@
         margin-top: 5%;
     }
     
+}
+
+@media screen and (max-width:810px){
+    .titulo-app{
+        margin-top: 15%;
+    }
 }
 
 .texto-app{
@@ -719,6 +913,12 @@
     }
 }
 
+@media screen and (max-width:810px){
+    .imagen-app{
+        margin-top: 15%;
+    }   
+}
+
 /**IMÁGENES - EXPLICACIÓN APP**/
 
 
@@ -728,7 +928,14 @@
     margin-left: 80px;
     margin-right: 80px;
     margin-top: 80px;
-    
+}
+
+@media screen and (max-width:810px){
+    .contenedor-app-1{
+        margin-left: 7%;
+        margin-right: 7%;
+        align-items: center;
+    }   
 }
 .contenedor-texto-app-1{
     display: block;
@@ -741,6 +948,12 @@
     }
 }
 
+@media screen and (max-width:810px){
+    .contenedor-texto-app-1{
+        margin-top: 0%;
+    }   
+}
+
 .imagen-app-bodega{
     width: 740px;
     height: 298px;
@@ -751,6 +964,14 @@
         width: 539px;
         height: 217px;
     }
+}
+
+@media screen and (max-width:810px){
+    .imagen-app-bodega{
+        width: 420px;
+        height: 169px;
+        
+    }   
 }
 
 .titulo-app-1{
@@ -766,6 +987,12 @@
         font-size: 32px;
         margin-left: 32px;
     }
+}
+
+@media screen and (max-width:810px){
+    .titulo-app-1{
+        font-size: 26px;
+    }   
 }
 
 .texto-app-1{
@@ -791,6 +1018,14 @@
     margin-top: 120px;
 }
 
+@media screen and (max-width:810px){
+    .contenedor-app-2{
+        margin-left: 7%;
+        margin-right: 7%;
+        align-items: center;
+    }   
+}
+
 .imagen-app-bodega-2{
     width: 740px;
     height: 308px;
@@ -800,6 +1035,13 @@
     .imagen-app-bodega-2{
         width: 539px;
         height: 225px;
+    }
+}
+
+@media screen and (max-width:810px){
+    .imagen-app-bodega-2{
+        width: 420px;
+        height: 175px;
     }
 }
 
@@ -816,6 +1058,12 @@
         font-size: 32px;
         margin-right: 32px;
     }
+}
+
+@media screen and (max-width:810px){
+    .titulo-app-2{
+        font-size: 28px;
+    }   
 }
 
 .texto-app-2{
@@ -841,9 +1089,23 @@
     margin-top: 120px;
 }
 
+@media screen and (max-width:810px){
+    .contenedor-app-3{
+        margin-left: 7%;
+        margin-right: 7%;
+        align-items: center;
+    }   
+}
+
 .contenedor-texto-app-2{
     display: block;
     margin-top: 11%;
+}
+
+@media screen and (max-width:810px){
+    .contenedor-texto-app-2{
+        margin-top: 0px;
+    }   
 }
 
 .imagen-app-bodega-3{
@@ -856,6 +1118,13 @@
         width: 539px;
         height: 304px;
     }
+}
+
+@media screen and (max-width:810px){
+    .imagen-app-bodega-3{
+        width: 420px;
+        height: 237px;
+    }   
 }
 .contenedor-portfolio-1{
     background-color: #FF5722;
@@ -872,6 +1141,12 @@
     
 }
 
+@media screen and (max-width:810px){
+    .contenedor-portfolio-1{
+        height: 500px;
+    }   
+}
+
 .contenedor-card-portfolio-2{
     display: flex;
     flex-direction: row;
@@ -881,11 +1156,12 @@
 }
 
 @media screen and (max-width:1080px){
-    .contenedo-card-portfolio-2{
+    .contenedor-card-portfolio-2{
         margin-left: 48px;
         margin-right: 48px;
     }
 }
+
 
 .imagen-portfolio-bodega{
     width: 474px;
@@ -898,6 +1174,13 @@
         height: 250px;
         margin-top: 7%;
     }
+}
+
+@media screen and (max-width:810px){
+    .imagen-portfolio-bodega{
+        width: 270px;
+        height: 180px;
+    }   
 }
 
 
@@ -920,6 +1203,14 @@
     }
 }
 
+@media screen and (max-width:810px){
+    .imagen-app-2{
+        width: 340px;
+        height: 340px;
+        margin-top: 30%;
+    }   
+}
+
 .imagen-app-precios-claros{
     width: 740px;
     height: 378px;
@@ -930,6 +1221,13 @@
         width: 539px;
         height: 275px;
     }
+}
+
+@media screen and (max-width:810px){
+    .imagen-app-precios-claros{
+        width: 429px;
+        height: 215px;    
+    }  
 }
 
 .imagen-app-precios-claros-2{
@@ -944,6 +1242,13 @@
     }
 }
 
+@media screen and (max-width:810px){
+    .imagen-app-precios-claros-2{
+        width: 420px;
+        height: 213px;
+    }   
+}
+
 .imagen-app-precios-claros-3{
     width: 740px;
     height: 408px;
@@ -954,5 +1259,12 @@
         width: 539px;
         height: 298px;
     }
+}
+
+@media screen and (max-width:810px){
+    .imagen-app-precios-claros-3{
+        width: 420px;
+        height: 232px;
+    }   
 }
 
