@@ -117,8 +117,8 @@
     .imagen-hero{
         align-self: center;
         margin-top: 9%;
-        width: 540px;
-        height: 306px;
+        width: 470px;
+        height: 267px;
     }
 }
 
@@ -836,7 +836,7 @@
 
 @media screen and (max-width:810px){
     .contenedor-app-de-vinos{
-        height: 80vh;
+        height: 70vh;
     }
 }
 
@@ -867,7 +867,7 @@
 
 @media screen and (max-width:810px){
     .titulo-app{
-        margin-top: 15%;
+        margin-top: 20%;
     }
 }
 
@@ -915,7 +915,7 @@
 
 @media screen and (max-width:810px){
     .imagen-app{
-        margin-top: 15%;
+        margin-top: 20%;
     }   
 }
 
