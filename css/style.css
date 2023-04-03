@@ -310,14 +310,14 @@
 
 @media screen and (max-width:670px) {
     .titulo-servicios{
-        margin-top: 15%;
+        margin-top: 10%;
     }   
 }
 
 
 @media screen and (max-width:480px) {
     .titulo-servicios{
-        margin-top: 2%;
+        margin-top: 1%;
 }
 }
 
@@ -579,7 +579,7 @@
 
 @media screen and (max-width:480px) {
     .contenedor-portfolio{
-        height: 1120px;
+        height: auto;
     }   
 }
 
@@ -926,14 +926,14 @@
 @media screen and (max-width:480px) {
     .contenedor-contacto{
         background-image: linear-gradient(to bottom, #673AB7, #27047D);
-        height: 850px;
+        height: auto;
 }
 }
 
 @media screen and (max-width:320px) {
     .contenedor-contacto{
         background-image: linear-gradient(to bottom, #673AB7, #27047D);
-        height: 800px;
+        height: auto;
     }   
 }
 
@@ -1021,9 +1021,7 @@
     .card-contacto-1{
         width: 100%;
         height: auto;
-        padding: 48px;
-
-        
+        padding: 16px;
     }   
 }
 
@@ -1336,7 +1334,7 @@
 
 @media screen and (max-width:480px) {
     .contenedor-app-de-vinos{
-        height: 115vh;
+        height: 110vh;
     }   
 }
 
@@ -1900,8 +1898,6 @@
         flex-direction: column;
     }   
 }
-
-
 
 .imagen-portfolio-bodega{
     width: 474px;
