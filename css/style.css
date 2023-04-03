@@ -123,7 +123,6 @@
     .container-hero{
         margin-left: 3%;
         margin-right: 3%;
-        margin-top: 3%;
     }   
     
 }
@@ -1225,7 +1224,6 @@
 @media screen and (max-width:480px) {
     .contenedor-app-de-vinos{
         height: 115vh;
-        margin-top: 10%;
     }   
 }
 
