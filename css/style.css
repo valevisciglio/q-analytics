@@ -119,10 +119,10 @@
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:480px) {
     .container-hero{
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 3%;
+        margin-right: 3%;
     }   
     
 }
@@ -177,13 +177,6 @@
         margin-left: 0px;
     }   
 }
-
-@media screen and (max-width:320px) {
-    .container-titulos{
-        margin-left: 0px;
-    }
-}
-
 
 .titulo-hero{
     font-family: 'Montserrat', sans-serif;
@@ -280,13 +273,18 @@
     }   
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:480px) {
     .titulo-servicios{
-        font-size: 32px;
-        margin-top: 2%;
+        margin-top: 5%;
 }
 }
 
+@media screen and (max-width:320px) {
+    .titulo-servicios{
+       font-size: 32px; 
+    }
+}
+ 
 .caja-contenedora-card{
     display: flex;
     justify-content: space-between;
@@ -329,7 +327,9 @@
 
 @media screen and (max-width:480px) {
     .card-1{
+        width: 90%;
         height: 190px;
+        align-self: center;
     }
 }
 
