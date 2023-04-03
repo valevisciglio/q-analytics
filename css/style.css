@@ -44,6 +44,12 @@
     }
 }
 
+@media screen and (max-width:480px) {
+    .img-logo{
+        margin-left: 16px;
+    }
+}
+
 @media screen and (max-width:320px) {
     .img-logo{
         width: 162px;
@@ -51,20 +57,14 @@
     }
 }
 
-@media screen and (max-width:480px) {
-    .img-logo{
-        margin-left: 16px;
-    }
-}
-
 .contenedor{
     background-color: #673AB7;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .contenedor{
         background-color: #ffffff;
-    }
+    }   
 }
 
 .background-hero{
@@ -83,6 +83,12 @@
 @media screen and (max-width:810px){
     .background-hero{
         height: 100vh;
+    }   
+}
+
+@media screen and (max-width:670px) {
+    .background-hero{
+        height: 150vh;
     }   
 }
 
@@ -148,6 +154,13 @@
     }
 }
 
+@media screen and (max-width:670px) {
+    .imagen-hero{
+        width: 350px;
+        height: 198px;
+    }
+}
+
 @media screen and (max-width:480px) {
     .imagen-hero{
         width: 300px;
@@ -172,11 +185,12 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .container-titulos{
         margin-left: 0px;
     }   
 }
+
 
 .titulo-hero{
     font-family: 'Montserrat', sans-serif;
@@ -198,12 +212,18 @@
     }
 }
 
+@media screen and (max-width:670px) {
+    .titulo-hero{
+        font-size: 48px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }   
+}
+
 @media screen and (max-width:480px) {
   .titulo-hero{
-    font-size: 48px;
     margin-left: 0px;
     margin-right: 0px;
-    
 
   }  
 }
@@ -273,6 +293,12 @@
     }   
 }
 
+@media screen and (max-width:670px) {
+    .titulo-servicios{
+        margin-top: 7%;
+    }   
+}
+
 @media screen and (max-width:480px) {
     .titulo-servicios{
         margin-top: 5%;
@@ -293,12 +319,17 @@
     margin-right: 80px;
     margin-bottom: 2%;
 }
-    
-@media screen and (max-width:480px) {
+
+@media screen and (max-width:670px) {
     .caja-contenedora-card{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
+    }   
+}
+    
+@media screen and (max-width:480px) {
+    .caja-contenedora-card{
         margin-left: 16px;
         margin-right: 16px;
     }
@@ -315,21 +346,31 @@
 
 @media screen and (max-width:1080px) {
     .card-1{
-        height: 320px;    
+        width: 90%;
+        height: auto;    
     }
 }
 
 @media screen and (max-width:810px){
     .card-1{
-        height: 370px;
+        width: 90%;
+        height: auto;
     }
+}
+
+@media screen and (max-width:670px) {
+    .card-1{
+        width: 95%;
+        height: auto;
+        align-self: center;
+
+    }   
 }
 
 @media screen and (max-width:480px) {
     .card-1{
         width: 90%;
         height: auto;
-        align-self: center;
     }
 }
 
@@ -338,7 +379,7 @@
         margin-left: 16px;
         margin-right: 16px;
         width: 90%;
-        height: 280px;
+        height: auto;
     }   
 }
 .contenido{
@@ -358,7 +399,7 @@
     transform: rotateY(180deg);
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .card-1 .contenido{
         transform: rotateY(180deg);       
     }
@@ -384,10 +425,16 @@
     
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:1080px) {
     .dorso-card-1{
-        background-color: #ffffff;
         position: relative;
+        padding: 6%;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .dorso-card-1{
+        background-color: #ffffff;  
         padding: 6%;
     }
 }
@@ -439,7 +486,7 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .texto-card-1{
         color: #607D8B;
     }
@@ -473,7 +520,7 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .titulo-card-2{
         color: #FF5722;
         margin-top: 0px;
@@ -505,10 +552,17 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .contenedor-portfolio{
         margin-left: 16px;
         margin-right: 16px;
+        height: auto;
+        
+    }   
+}
+
+@media screen and (max-width:480px) {
+    .contenedor-portfolio{
         height: 1120px;
     }   
 }
@@ -535,13 +589,13 @@
     
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .contenedor-card{
     width: 100%;
     display: flex;
     flex-direction: column;
     animation: none;
-
+    
 }
 }
 
@@ -553,6 +607,12 @@
     width: 100%;
     scroll-snap-align: start;
   
+}
+
+@media screen and (max-width:670px) {
+    .contenedor-card-portfolio{
+        padding: 5%;
+    }    
 }
 
 @media screen and (max-width:480px) {
@@ -609,6 +669,12 @@
 @media screen and (max-width:810px){
     .titulo-portfolio{
         font-size: 42px;
+    }   
+}
+
+@media screen and (max-width:670px) {
+    .titulo-portfolio{
+        padding: 32px;
     }   
 }
 
@@ -814,6 +880,7 @@
 @media screen and (max-width:810px){
     .texto-quienes-somos{
         text-align: center;
+        margin-left: 0px;
     }
 }
 
@@ -831,6 +898,13 @@
     background-image: linear-gradient(to bottom, #673AB7, #27047D);
     width: 100%;
     height: 420px;
+}
+
+@media screen and (max-width:670px) {
+    .contenedor-contacto{
+        height: auto;
+        
+    }   
 }
 
 @media screen and (max-width:480px) {
@@ -864,6 +938,11 @@
     }
 }
 
+@media screen and (max-width:670px) {
+    .titulo-contacto{
+        padding-top: 10%;
+    }   
+}
 
 
 @media screen and (max-width:320px) {
@@ -879,12 +958,13 @@
     width: 100%;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .contenedor-card-contacto{
         display: flex;
         flex-direction: column;
     }   
 }
+
 
 .card-contacto-1{
     width: 26%;
@@ -908,13 +988,25 @@
     }   
 }
 
+@media screen and (max-width:670px) {
+    .card-contacto-1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 2%;
+        margin-bottom: 1%;
+    }   
+}
+
 @media screen and (max-width:480px) {
     .card-contacto-1{
         width: 100%;
-        height: 200px;
+        height: auto;
         padding: 48px;
-        margin-left: 0%;
-        margin-right: 0%;
+
         
     }   
 }
@@ -980,11 +1072,10 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .info-contacto{
-        font-size: 16px;       
-        
-    }   
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width:320px) {
@@ -1054,13 +1145,13 @@
     
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .footer{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 200px;
+        height: auto;
     }
 }
 
@@ -1078,7 +1169,7 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .imagen-footer{
         width: 132px;
         height: 25px;
@@ -1100,7 +1191,7 @@
 .mobile-copy{
     display: none;
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .copyright{
         margin-top: 24px;
         
@@ -1132,7 +1223,7 @@
 
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .icono-footer{
         margin-top: 0px;
         padding-left: 0%;
@@ -1150,7 +1241,7 @@
     margin-top: 16px;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:6780px) {
     .icono-linkedin{
         font-size: 20px;
     }
@@ -1169,7 +1260,7 @@
     margin-top: 16px;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .icono-instagram{
         font-size: 20px;
     }   
@@ -1188,10 +1279,10 @@
     background-color: #673AB7;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .contenedor-principal{
         background-color: #ffffff;
-    }
+    }   
 }
 
 /* .contenedor-app-de-vinos{
@@ -1221,6 +1312,12 @@
     }
 }
 
+@media screen and (max-width:670px) {
+    .contenedor-app-de-vinos{
+        height: 150vh;
+    }   
+}
+
 @media screen and (max-width:480px) {
     .contenedor-app-de-vinos{
         height: 115vh;
@@ -1233,16 +1330,25 @@
     
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .contenedor-hero-app{
         display: flex;
         flex-direction: column;
-        
     }   
 }
 
+
 .contenedor-textos-app{
     padding: 11%;
+}
+
+@media screen and (max-width:670px) {
+    .contenedor-textos-app{
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 0%;
+    }  
 }
 
 @media screen and (max-width:480px) {
@@ -1275,9 +1381,16 @@
     }
 }
 
+@media screen and (max-width:670px) {
+    .titulo-app{
+        margin-top: 7%;
+        text-align: center;
+    }   
+}
+
+
 @media screen and (max-width:480px) {
     .titulo-app{
-        text-align: center;
         margin-top: 5%;
     }   
 }
@@ -1303,9 +1416,14 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .texto-app{
         text-align: center;
+    }   
+}
+
+@media screen and (max-width:480px) {
+    .texto-app{
         margin-top: 32px;
         margin-bottom: 32px;
     }   
@@ -1321,7 +1439,7 @@
     display: inherit;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .boton-ancla-2{
         display: flex;
         justify-content: center;
@@ -1350,7 +1468,7 @@
    display: inherit;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .imagen-bodega-app{
         display: flex;
         justify-content: center;
@@ -1376,7 +1494,7 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .imagen-app{
         margin-top: 0%;
         margin-right: 0px;
@@ -1415,7 +1533,7 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .contenedor-app-1{
         display: flex;
         flex-direction: column-reverse;
@@ -1436,6 +1554,12 @@
 @media screen and (max-width:810px){
     .contenedor-texto-app-1{
         margin-top: 0%;
+    }   
+}
+
+@media screen and (max-width:670px) {
+    .contenedor-texto-app-1{
+        margin-top: 10%;
     }   
 }
 
@@ -1495,12 +1619,13 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .titulo-app-1{
         text-align: center;
         margin: 0px;
     }   
 }
+
 
 .texto-app-1{
     font-family: 'Montserrat', sans-serif;
@@ -1517,7 +1642,7 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .texto-app-1{
         text-align: center;
         margin-top: 16px;
@@ -1542,7 +1667,7 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .contenedor-app-2{
         display: flex;
         flex-direction: column;
@@ -1598,7 +1723,7 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .titulo-app-2{
         text-align: center;
         margin-right: 0%;
@@ -1622,7 +1747,7 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .texto-app-2{
         margin-right: 0px;
         margin-top: 16px;
@@ -1647,10 +1772,16 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .contenedor-app-3{
         display: flex;
         flex-direction: column-reverse;
+        margin-top: 8%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .contenedor-app-3{
         margin-top: 15%;
     }
 }
@@ -1716,10 +1847,18 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
     .contenedor-portfolio-1{
         margin-left: 16px;
         margin-right: 16px;
+        height: auto;
+        padding-bottom: 10%;
+    }   
+}
+
+@media screen and (max-width:480px) {
+    .contenedor-portfolio-1{
+        
         height: 700px;
     }
 }
@@ -1796,7 +1935,7 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:670px) {
    .imagen-app-2{
     width: 250px;
     height: 250px;
