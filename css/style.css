@@ -92,6 +92,13 @@
     }   
 }
 
+@media screen and (max-width:480px) {
+    .background-hero{
+        height: 100vh;
+    }
+    
+}
+
 
 /* .background-hero{
     background-image: url(../img/background-hero.png);
@@ -125,10 +132,18 @@
     }
 }
 
+@media screen and (max-width:670px) {
+    .container-hero{
+        margin-top: 40px;
+    }
+    
+}
+
 @media screen and (max-width:480px) {
     .container-hero{
         margin-left: 3%;
         margin-right: 3%;
+        margin-top: 80px;
     }   
     
 }
@@ -295,13 +310,14 @@
 
 @media screen and (max-width:670px) {
     .titulo-servicios{
-        margin-top: 7%;
+        margin-top: 15%;
     }   
 }
 
+
 @media screen and (max-width:480px) {
     .titulo-servicios{
-        margin-top: 5%;
+        margin-top: 2%;
 }
 }
 
