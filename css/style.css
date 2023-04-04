@@ -61,7 +61,7 @@
     background-color: #673AB7;
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .contenedor{
         background-color: #ffffff;
     }   
@@ -83,6 +83,12 @@
 @media screen and (max-width:810px){
     .background-hero{
         height: 100vh;
+    }   
+}
+
+@media screen and (max-width:710px) {
+    .background-hero{
+        height: 140vh;
     }   
 }
 
@@ -132,7 +138,7 @@
     }
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .container-hero{
         margin-top: 40px;
     }
@@ -169,7 +175,7 @@
     }
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .imagen-hero{
         width: 350px;
         height: 198px;
@@ -200,7 +206,7 @@
     }
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .container-titulos{
         margin-left: 0px;
     }   
@@ -227,7 +233,7 @@
     }
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .titulo-hero{
         font-size: 48px;
         margin-left: 2%;
@@ -308,7 +314,7 @@
     }   
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .titulo-servicios{
         margin-top: 10%;
     }   
@@ -336,7 +342,7 @@
     margin-bottom: 2%;
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .caja-contenedora-card{
         display: flex;
         flex-direction: column;
@@ -374,7 +380,7 @@
     }
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .card-1{
         width: 95%;
         height: auto;
@@ -415,7 +421,7 @@
     transform: rotateY(180deg);
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .card-1 .contenido{
         transform: rotateY(180deg);       
     }
@@ -448,7 +454,7 @@
     }
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .dorso-card-1{
         background-color: #ffffff;  
         padding: 6%;
@@ -502,7 +508,7 @@
     }
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .texto-card-1{
         color: #607D8B;
     }
@@ -536,7 +542,7 @@
     }
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .titulo-card-2{
         color: #FF5722;
         margin-top: 0px;
@@ -568,7 +574,7 @@
     }
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .contenedor-portfolio{
         margin-left: 16px;
         margin-right: 16px;
@@ -605,7 +611,7 @@
     
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .contenedor-card{
     width: 100%;
     display: flex;
@@ -625,7 +631,7 @@
   
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .contenedor-card-portfolio{
         padding: 5%;
     }    
@@ -688,7 +694,7 @@
     }   
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .titulo-portfolio{
         padding: 32px;
     }   
@@ -916,7 +922,7 @@
     height: 420px;
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .contenedor-contacto{
         height: auto;
         
@@ -954,7 +960,7 @@
     }
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .titulo-contacto{
         padding-top: 10%;
     }   
@@ -974,7 +980,7 @@
     width: 100%;
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .contenedor-card-contacto{
         display: flex;
         flex-direction: column;
@@ -1004,7 +1010,7 @@
     }   
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .card-contacto-1{
         width: 100%;
         height: auto;
@@ -1086,7 +1092,7 @@
     }   
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .info-contacto{
         font-size: 16px;
     }
@@ -1159,7 +1165,7 @@
     
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .footer{
         display: flex;
         flex-direction: column;
@@ -1183,7 +1189,7 @@
     }   
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .imagen-footer{
         width: 132px;
         height: 25px;
@@ -1205,7 +1211,7 @@
 .mobile-copy{
     display: none;
 }
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .copyright{
         margin-top: 24px;
         
@@ -1237,7 +1243,7 @@
 
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .icono-footer{
         margin-top: 0px;
         padding-left: 0%;
@@ -1255,7 +1261,7 @@
     margin-top: 16px;
 }
 
-@media screen and (max-width:6780px) {
+@media screen and (max-width:710px) {
     .icono-linkedin{
         font-size: 20px;
     }
@@ -1274,7 +1280,7 @@
     margin-top: 16px;
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .icono-instagram{
         font-size: 20px;
     }   
@@ -1293,7 +1299,7 @@
     background-color: #673AB7;
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .contenedor-principal{
         background-color: #ffffff;
     }   
@@ -1326,7 +1332,7 @@
     }
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .contenedor-app-de-vinos{
         height: 150vh;
     }   
@@ -1344,7 +1350,7 @@
     
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .contenedor-hero-app{
         display: flex;
         flex-direction: column;
@@ -1356,7 +1362,7 @@
     padding: 11%;
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .contenedor-textos-app{
         padding-top: 5%;
         padding-left: 5%;
@@ -1395,7 +1401,7 @@
     }
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .titulo-app{
         margin-top: 7%;
         text-align: center;
@@ -1430,7 +1436,7 @@
     }
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .texto-app{
         text-align: center;
     }   
@@ -1453,7 +1459,7 @@
     display: inherit;
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .boton-ancla-2{
         display: flex;
         justify-content: center;
@@ -1482,7 +1488,7 @@
    display: inherit;
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .imagen-bodega-app{
         display: flex;
         justify-content: center;
@@ -1508,7 +1514,7 @@
     }   
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .imagen-app{
         margin-top: 0%;
         margin-right: 0px;
@@ -1547,7 +1553,7 @@
     }   
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .contenedor-app-1{
         display: flex;
         flex-direction: column-reverse;
@@ -1571,7 +1577,7 @@
     }   
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .contenedor-texto-app-1{
         margin-top: 10%;
     }   
@@ -1633,7 +1639,7 @@
     }   
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .titulo-app-1{
         text-align: center;
         margin: 0px;
@@ -1656,7 +1662,7 @@
     }
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .texto-app-1{
         text-align: center;
         margin-top: 16px;
@@ -1681,7 +1687,7 @@
     }   
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .contenedor-app-2{
         display: flex;
         flex-direction: column;
@@ -1737,7 +1743,7 @@
     }   
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .titulo-app-2{
         text-align: center;
         margin-right: 0%;
@@ -1761,7 +1767,7 @@
     }
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .texto-app-2{
         margin-right: 0px;
         margin-top: 16px;
@@ -1786,7 +1792,7 @@
     }   
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .contenedor-app-3{
         display: flex;
         flex-direction: column-reverse;
@@ -1861,7 +1867,7 @@
     }   
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
     .contenedor-portfolio-1{
         margin-left: 16px;
         margin-right: 16px;
@@ -1947,7 +1953,7 @@
     }   
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:710px) {
    .imagen-app-2{
     width: 250px;
     height: 250px;
