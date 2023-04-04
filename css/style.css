@@ -243,6 +243,7 @@
 
 @media screen and (max-width:480px) {
   .titulo-hero{
+    font-size:46px ;
     margin-left: 0px;
     margin-right: 0px;
 
@@ -324,6 +325,7 @@
 @media screen and (max-width:480px) {
     .titulo-servicios{
         margin-top: 1%;
+        font-size: 44px;
 }
 }
 
@@ -700,6 +702,12 @@
     }   
 }
 
+@media screen and (max-width:480px) {
+    .titulo-portfolio{
+        font-size: 44px;
+    }
+}
+
 @media screen and (max-width:320px) {
     .titulo-portfolio{
         font-size: 32px;
@@ -876,6 +884,12 @@
     }
 }
 
+@media screen and (max-width:480px) {
+    .titulo-quienes-somos{
+        font-size: 44px;
+    }
+}
+
 @media screen and (max-width:320px) {
  .titulo-quienes-somos{
     font-size: 32px;
@@ -966,6 +980,11 @@
     }   
 }
 
+@media screen and (max-width:480px) {
+    .titulo-contacto{
+        font-size: 44px;
+    }   
+}
 
 @media screen and (max-width:320px) {
     .titulo-contacto{
@@ -1408,6 +1427,11 @@
     }   
 }
 
+@media screen and (max-width:480px) {
+    .titulo-app{
+        font-size: 46px;
+    }   
+}
 
 @media screen and (max-width:480px) {
     .titulo-app{
