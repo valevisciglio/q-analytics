@@ -44,11 +44,14 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .img-logo{
         margin-left: 16px;
-    }
+    }                
 }
+
 
 @media screen and (max-width:320px) {
     .img-logo{
@@ -98,11 +101,12 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .background-hero{
-        height: 100vh;
-    }
-    
+            height: 100vh;
+        }
 }
 
 
@@ -145,14 +149,16 @@
     
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .container-hero{
         margin-left: 3%;
         margin-right: 3%;
         margin-top: 80px;
     }   
-    
 }
+
 
 .imagen-hero{
     width: 540px;
@@ -182,7 +188,9 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .imagen-hero{
         width: 300px;
         height: 173px;
@@ -241,8 +249,10 @@
     }   
 }
 
-@media screen and (max-width:480px) {
-  .titulo-hero{
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
+    .titulo-hero{
     font-size:46px ;
     margin-left: 0px;
     margin-right: 0px;
@@ -321,12 +331,13 @@
     }   
 }
 
-
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .titulo-servicios{
-        margin-top: 1%;
-        font-size: 44px;
-}
+            margin-top: 1%;
+            font-size: 44px;
+    }
 }
 
 @media screen and (max-width:320px) {
@@ -351,12 +362,14 @@
         justify-content: center;
     }   
 }
-    
-@media screen and (max-width:480px) {
+ 
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .caja-contenedora-card{
-        margin-left: 16px;
-        margin-right: 16px;
-    }
+            margin-left: 16px;
+            margin-right: 16px;
+        }
 }
 
 .card-1{
@@ -391,11 +404,13 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .card-1{
-        width: 90%;
-        height: auto;
-    }
+            width: 90%;
+            height: auto;
+        }
 }
 
 @media screen and (max-width:320px) {
@@ -585,10 +600,12 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .contenedor-portfolio{
-        height: auto;
-    }   
+            height: auto;
+        }   
 }
 
 @media screen and (max-width:320px) {
@@ -639,13 +656,15 @@
     }    
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .contenedor-card-portfolio{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 7%;
-    }    
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 7%;
+        } 
 }
 
 .imagen-card-portfolio {
@@ -653,23 +672,28 @@
     align-self: center;
   }
 
-@media screen and (max-width:480px) {    
+
+@media only screen and (min-device-width: 480px) 
+                and (max-device-width: 640px) 
+                and (orientation: landscape){
     .imagen-card-portfolio{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-}
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+}  
 
 .contenedor-card-portfolio img {
     width: 100%;
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .contenedor-card-portfolio img{
-        width: 90%;
-               
-    }  
+            width: 90%;
+                
+        }  
 }
 
 @keyframes carrusel {
@@ -702,10 +726,12 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .titulo-portfolio{
-        font-size: 44px;
-    }
+            font-size: 44px;
+        }
 }
 
 @media screen and (max-width:320px) {
@@ -734,14 +760,16 @@
     
 }
 
-@media screen and (max-width:480px) {
-   .titulo-card-portfolio{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    padding-left:0px ;
-    margin-top: 0%;
-   } 
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
+    .titulo-card-portfolio{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        padding-left:0px ;
+        margin-top: 0%;
+    } 
 }
 
 .texto-card-portfolio{
@@ -759,21 +787,27 @@
 
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .texto-card-portfolio{
-        text-align: center;
-        padding-left: 0px;
-    }
+            text-align: center;
+            padding-left: 0px;
+        }
 }
+
 .boton-ancla{
     display: inherit;
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .boton-ancla{
-        display: flex;
-        justify-content: center;
-}}
+            display: flex;
+            justify-content: center;
+    }
+}
 
 .boton-card{
     font-family: 'Montserrat', sans-serif ;
@@ -786,10 +820,12 @@
     margin-left: 24px;  
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .boton-card{
-        margin-left: 0px;
-    }   
+            margin-left: 0px;
+        }  
 }
 
 .boton-card:hover{
@@ -821,10 +857,12 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .contenedor-quienes-somos{
-        padding: 32px;
-    }
+            padding: 32px;
+        }
 }
 
 @media screen and (max-width:320px) {
@@ -884,10 +922,12 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .titulo-quienes-somos{
-        font-size: 44px;
-    }
+            font-size: 44px;
+        }
 }
 
 @media screen and (max-width:320px) {
@@ -920,10 +960,12 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .texto-quienes-somos{
-        margin-left: 0px;
-    }   
+            margin-left: 0px;
+        }   
 }
 
 
@@ -943,7 +985,9 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .contenedor-contacto{
         background-image: linear-gradient(to bottom, #673AB7, #27047D);
         height: auto;
@@ -980,10 +1024,12 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .titulo-contacto{
-        font-size: 44px;
-    }   
+            font-size: 44px;
+        } 
 }
 
 @media screen and (max-width:320px) {
@@ -1042,12 +1088,14 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .card-contacto-1{
-        width: 100%;
-        height: auto;
-        padding: 16px;
-    }   
+            width: 100%;
+            height: auto;
+            padding: 16px;
+        }  
 }
 
 @media screen and (max-width:320px) {
@@ -1357,10 +1405,12 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .contenedor-app-de-vinos{
-        height: 110vh;
-    }   
+            height: 110vh;
+        } 
 }
 
 .contenedor-hero-app{
@@ -1390,13 +1440,15 @@
     }  
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .contenedor-textos-app{
-        padding-top: 40px;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-bottom: 0px;
-    }   
+            padding-top: 40px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 0px;
+        }
 }
 
 .titulo-app{
@@ -1427,16 +1479,13 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .titulo-app{
-        font-size: 46px;
-    }   
-}
-
-@media screen and (max-width:480px) {
-    .titulo-app{
-        margin-top: 5%;
-    }   
+            font-size: 46px;
+            margin-top: 5%;
+        }   
 }
 
 @media screen and (max-width:320px) {
@@ -1466,11 +1515,13 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .texto-app{
-        margin-top: 32px;
-        margin-bottom: 32px;
-    }   
+            margin-top: 32px;
+            margin-bottom: 32px;
+        }   
 }
 
 @media screen and (max-width:320px){
@@ -1607,11 +1658,13 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .contenedor-texto-app-1{
-        margin-top: 20%;
-        
-    }   
+            margin-top: 20%;
+            
+        }   
 }
 
 .imagen-app-bodega{
@@ -1634,12 +1687,14 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .imagen-app-bodega{
-        width: 340px;
-        height: 137px;
-        
-    }   
+            width: 340px;
+            height: 137px;
+            
+        } 
 }
 
 .titulo-app-1{
@@ -1738,11 +1793,13 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .imagen-app-bodega-2{
-        width: 340px;
-        height: 142px;
-    }   
+            width: 340px;
+            height: 142px;
+        }   
 }
 
 .titulo-app-2{
@@ -1824,10 +1881,12 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .contenedor-app-3{
-        margin-top: 15%;
-    }
+            margin-top: 15%;
+        }
 }
 
 .contenedor-texto-app-2{
@@ -1863,11 +1922,13 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .imagen-app-bodega-3{
-        width: 340px;
-        height: 192px;
-    }   
+            width: 340px;
+            height: 192px;
+        }   
 }
 
 .contenedor-portfolio-1{
@@ -1900,11 +1961,13 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .contenedor-portfolio-1{
-        
-        height: 700px;
-    }
+            
+            height: 700px;
+        }
 }
 
 .contenedor-card-portfolio-2{
@@ -1922,11 +1985,13 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .contenedor-card-portfolio-2{
-        display: flex;
-        flex-direction: column;
-    }   
+            display: flex;
+            flex-direction: column;
+        }   
 }
 
 .imagen-portfolio-bodega{
@@ -2004,11 +2069,13 @@
     }  
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .imagen-app-precios-claros{
-        width: 340px;
-        height: 174px;
-    }   
+            width: 340px;
+            height: 174px;
+        }   
 }
 
 .imagen-app-precios-claros-2{
@@ -2030,11 +2097,13 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .imagen-app-precios-claros-2{
-        width: 340px;
-        height: 173px;
-    }   
+            width: 340px;
+            height: 173px;
+        }   
 }
 
 .imagen-app-precios-claros-3{
@@ -2056,10 +2125,13 @@
     }   
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape){
     .imagen-app-precios-claros-3{
-        width: 340px;
-        height: 188px;
-    }   
+            width: 340px;
+            height: 188px;
+        }   
 }
+
 
