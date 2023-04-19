@@ -651,9 +651,16 @@
     align-self: center;
   }
 
+@media screen and (max-width:810px) {
+    .imagen-card-portfolio{
+        width: 100%;
+        
+    }
+    
+}
+
 @media screen and (max-width: 480px){
     .imagen-card-portfolio{
-            width: 100%;
             display: flex;
             justify-content: center;
         }            
@@ -1110,6 +1117,11 @@
     font-size: 16px;
     margin-left: 24px;
     color: #ffffff;
+}
+
+.info-contacto:hover{
+    font-weight: 550;
+    
 }
 
 @media screen and (max-width:1080px) {
@@ -1924,6 +1936,8 @@
     }
 }
 
+/** INFO DE PORTFOLIO - TAMBIÉN TE PODRÍA INTERESAR...**/
+
 .contenedor-portfolio-1{
     background-color: #FF5722;
     margin-top: 120px;
@@ -1934,7 +1948,7 @@
 
 @media screen and (max-width:1080px) {
     .contenedor-portfolio-1{
-        height: 450px;
+        height: auto;
     }
     
 }
