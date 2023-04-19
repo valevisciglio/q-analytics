@@ -76,7 +76,7 @@
 
 @media screen and (max-width:1080px){
     .background-hero{
-        height: 105vh;    
+        height: 100vh;    
     }
 }
 
@@ -88,7 +88,7 @@
 
 @media screen and (max-width:780px) {
     .background-hero{
-        height: 150vh;
+        height: 140vh;
     }   
 }
 
@@ -298,32 +298,42 @@
 
 /****SERVICIOS****/
 
+.servicios{
+    margin-top: 3%;
+}
+
+
 .titulo-servicios{
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
     font-weight: bold;
     text-align: center;
-    margin-top: 3%;
     color: #27047D;
 }
 
 @media screen and (max-width:810px){
+    .servicios{
+        margin-top: 10% ;   
+    }
+
     .titulo-servicios{
         font-size: 42px;
-        margin-top: 10%;
     }   
 }
 
 @media screen and (max-width:780px) {
-    .titulo-servicios{
+    .servicios{
         margin-top: 11%;
     }   
 }
 
 @media screen and (max-width: 480px){
+    .servicios{
+        margin-top: 1% ;
+    }
+
     .titulo-servicios{
-            margin-top: 1%;
-            font-size: 44px;
+        font-size: 44px;
     }             
 }
 
