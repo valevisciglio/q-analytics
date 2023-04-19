@@ -61,7 +61,7 @@
     background-color: #673AB7;
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .contenedor{
         background-color: #ffffff;
     }   
@@ -86,7 +86,7 @@
     }   
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .background-hero{
         height: 140vh;
     }   
@@ -138,7 +138,7 @@
     }
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .container-hero{
         margin-top: 1%;
     }
@@ -174,7 +174,7 @@
     }
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .imagen-hero{
         width: 350px;
         height: 198px;
@@ -206,7 +206,7 @@
     }
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .container-titulos{
         margin-left: 0px;
     }   
@@ -233,7 +233,7 @@
     }
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .titulo-hero{
         font-size: 48px;
         margin-left: 2%;
@@ -314,7 +314,7 @@
     }   
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .titulo-servicios{
         margin-top: 11%;
     }   
@@ -342,7 +342,7 @@
     margin-bottom: 2%;
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .caja-contenedora-card{
         display: flex;
         flex-direction: column;
@@ -380,7 +380,7 @@
     }
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .card-1{
         width: 95%;
         height: auto;
@@ -421,7 +421,7 @@
     transform: rotateY(180deg);
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .card-1 .contenido{
         transform: rotateY(180deg);       
     }
@@ -454,7 +454,7 @@
     }
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .dorso-card-1{
         background-color: #ffffff;  
         padding: 6%;
@@ -508,7 +508,7 @@
     }
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .texto-card-1{
         color: #607D8B;
     }
@@ -542,7 +542,7 @@
     }
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .titulo-card-2{
         color: #FF5722;
         margin-top: 0px;
@@ -574,7 +574,7 @@
     }
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .contenedor-portfolio{
         margin-left: 16px;
         margin-right: 16px;
@@ -611,7 +611,7 @@
     
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .contenedor-card{
     width: 100%;
     display: flex;
@@ -631,7 +631,7 @@
   
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .contenedor-card-portfolio{
         padding: 5%;
     }    
@@ -694,7 +694,7 @@
     }   
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .titulo-portfolio{
         padding: 32px;
     }   
@@ -950,7 +950,7 @@
     height: 420px;
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .contenedor-contacto{
         height: auto;
         
@@ -988,7 +988,7 @@
     }
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .titulo-contacto{
         padding-top: 10%;
     }   
@@ -1013,7 +1013,7 @@
     width: 100%;
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .contenedor-card-contacto{
         display: flex;
         flex-direction: column;
@@ -1043,7 +1043,7 @@
     }   
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .card-contacto-1{
         width: 100%;
         height: auto;
@@ -1125,7 +1125,7 @@
     }   
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .info-contacto{
         font-size: 16px;
     }
@@ -1198,7 +1198,7 @@
     
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .footer{
         display: flex;
         flex-direction: column;
@@ -1222,7 +1222,7 @@
     }   
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .imagen-footer{
         width: 132px;
         height: 25px;
@@ -1244,7 +1244,7 @@
 .mobile-copy{
     display: none;
 }
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .copyright{
         margin-top: 24px;
         
@@ -1276,7 +1276,7 @@
 
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .icono-footer{
         margin-top: 0px;
         padding-left: 0%;
@@ -1294,7 +1294,7 @@
     margin-top: 16px;
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .icono-linkedin{
         font-size: 20px;
     }
@@ -1313,7 +1313,7 @@
     margin-top: 16px;
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .icono-instagram{
         font-size: 20px;
     }   
@@ -1372,7 +1372,7 @@
     }
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .contenedor-app-de-vinos{
         height: 150vh;
     }   
@@ -1390,7 +1390,7 @@
     
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .contenedor-hero-app{
         display: flex;
         flex-direction: column;
@@ -1402,7 +1402,7 @@
     padding: 11%;
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .contenedor-textos-app{
         padding-top: 5%;
         padding-left: 5%;
@@ -1441,7 +1441,7 @@
     }
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .titulo-app{
         margin-top: 7%;
         text-align: center;
@@ -1476,7 +1476,7 @@
     }
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .texto-app{
         text-align: center;
     }   
@@ -1499,7 +1499,7 @@
     text-decoration: none;
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .boton-ancla-2{
         display: flex;
         justify-content: center;
@@ -1530,7 +1530,7 @@
    margin-right: 10%;
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .imagen-bodega-app{
         display: flex;
         justify-content: center;
@@ -1559,7 +1559,7 @@
     }   
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .imagen-app{
         margin-top: 0%;
         margin-right: 0%;
@@ -1598,7 +1598,7 @@
     }   
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .contenedor-app-1{
         display: flex;
         flex-direction: column-reverse;
@@ -1622,7 +1622,7 @@
     }   
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .contenedor-texto-app-1{
         margin-top: 10%;
     }   
@@ -1692,7 +1692,7 @@
     }   
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .titulo-app-1{
         text-align: center;
         margin: 0px;
@@ -1720,7 +1720,7 @@
     }
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .texto-app-1{
         text-align: center;
         margin-top: 16px;
@@ -1745,7 +1745,7 @@
     }   
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .contenedor-app-2{
         display: flex;
         flex-direction: column;
@@ -1808,7 +1808,7 @@
     }   
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .titulo-app-2{
         text-align: center;
         margin-right: 0%;
@@ -1838,7 +1838,7 @@
     }
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .texto-app-2{
         margin-right: 0px;
         margin-top: 16px;
@@ -1863,7 +1863,7 @@
     }   
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .contenedor-app-3{
         display: flex;
         flex-direction: column-reverse;
@@ -1945,7 +1945,7 @@
     }   
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .contenedor-portfolio-1{
         margin-left: 16px;
         margin-right: 16px;
@@ -2024,7 +2024,7 @@
     margin-right: 6%;
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
     .imagen-precios-app{
         display: flex;
         justify-content: center;
@@ -2052,7 +2052,7 @@
     }   
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:780px) {
    .imagen-app-2{
     width: 250px;
     height: 250px;
